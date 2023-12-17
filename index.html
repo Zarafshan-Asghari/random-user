@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <title>random user</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center h-screen bg-teal-50">
+      <div
+        class="flex flex-col space-y-4 rounded-lg shadow-lg bg-white p-6 shadow-teal-100 hover:shadow-lg"
+      >
+        <div
+          class="border-b-4 border-teal-50 border-dotted tracking-widest w-full flex items-end justify-center"
+        >
+          <img
+            id="img"
+            src="./images/customer-3.jpg"
+            alt="photo"
+            class="rounded-full border border-sky-400 p-1 shadow-lg mb-4 mt-2"
+          />
+        </div>
+        <div class="text-center">
+          <p class="text-gray-500 text-base">
+            My <span id="text">Name </span> is <br />
+            <span
+              id="user-info"
+              class="text-gray-800 text-lg font-sans uppercase"
+              >zarafshan</span
+            >
+          </p>
+        </div>
+        <div
+          class="flex space-x-4 text-sm p-4 items-center justify-center mb-2"
+        >
+          <span id="fullName" class="hover:cursor-pointer"
+            ><ion-icon
+              name="person"
+              class="w-6 h-6 hover:text-teal-500 focus:text-teal-600"
+            ></ion-icon
+          ></span>
+          <span id="email" class="hover:cursor-pointer"
+            ><ion-icon
+              name="mail"
+              class="w-6 h-6 hover:text-teal-500 focus:text-teal-600"
+            ></ion-icon
+          ></span>
+          <span id="school" class="hover:cursor-pointer">
+            <!-- <ion-icon name="calendar"></ion-icon> -->
+            <ion-icon
+              name="school"
+              class="w-6 h-6 hover:text-teal-500 focus:text-teal-600"
+            ></ion-icon>
+          </span>
+
+          <span id="phone" class="hover:cursor-pointer">
+            <ion-icon
+              name="call"
+              class="w-6 h-6 hover:text-teal-500 focus:text-teal-600"
+            ></ion-icon>
+          </span>
+          <a id="linkdin" class="hover:cursor-pointer"
+            ><ion-icon
+              name="logo-linkedin"
+              class="w-6 h-6 hover:text-teal-500 active::text-sky-600"
+            ></ion-icon
+          ></a>
+          <a id="github" class="hover:cursor-pointer"
+            ><ion-icon
+              name="logo-github"
+              class="w-6 h-6 hover:text-teal-500 focus:text-teal-600"
+            ></ion-icon>
+          </a>
+          <!-- <span id="" class="w-6 h-6 hover:text-sky-500 focus:text-sky-600">
+            <ion-icon name="code-working"></ion-icon>
+          </span> -->
+        </div>
+        <div class="flex items-center justify-center">
+          <button
+            id="btnRandom"
+            class="bg-teal-600 text-white px-6 py-2 rounded-md hover:bg-teal-500 shadow-sm hover:shadow-md border-2 border-t-teal-500 border-l-teal-500 border-b-sky-800 border-r-sky-800 uppercase tracking-wide text-sm"
+          >
+            random user
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
